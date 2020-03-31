@@ -33,7 +33,7 @@ for j in range(var):
 list1 = {'Names':array}
 #print(list1)
 df = pd.DataFrame(list1)
-df_csv = pd.read_csv('level1 + syllable + word filter.csv')
+df_csv = pd.read_csv('level1sam.csv')
 #df_csv['syllable'] = df.Names  # changed here
 #df_csv.to_csv('withsyllable.csv', index=False, mode= 'w')
 df_csv = pd.DataFrame(columns=['Syllabel'])
